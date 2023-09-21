@@ -1,0 +1,110 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--semi-bold);
+  max-width: 100%;
+}
+
+:root {
+  --bleu: #6ec1e4;
+  --orange: #f7812e;
+  --h1size: 40px;
+  --h2size: 19px;
+  --h3size: 17px;
+  --semi-bold: 600;
+  --psize: 16px;
+}
+
+.header {
+  background: url(../img/wave.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 148vh;
+}
+
+.header .article1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.article1 > h1 {
+  font-family: "Lilita One", cursive;
+  margin: 15px 0 15px 0;
+  font-size: var(--h1size)
+}
+
+.article1 > p {
+  font-family: "Raleway", sans-serif;
+  margin: 15px 0 15px 0;
+  font-size: var(--psize);
+  font-weight: var(--semi-bold);
+}
+
+.header .article4 {
+  background-image: url(../img/photo\ header\ petit.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 80px 0 0 200px;
+  padding: 50px;
+  position: absolute;
+}
+
+.header .article3 {
+  background-image: url(../img/photo\ header\ petit\ garcon.jpg);
+  background-size: cover;
+  left: 90%;
+  border-radius: 50%;
+  margin-top: 250px;
+  padding: 50px;
+  position: absolute;
+}
+
+.header .article2 {
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 640px;
+  padding: 200px;
+  background-image: url(../img/photo\ header\ 1.png);
+  background-size: cover;
+  border-radius: 73% 27% 80% / 83% 58% 42% 17%;
+}
+
+.header > .triangle-bleu {
+  position: absolute;
+  background-image: url(../img/Polygon\ 1.svg);
+  margin: 130px 100px 100px -30px;
+  background-size: cover;
+  height: 240px;
+  width: 100px;
+}
+
+.smiley1 {
+  display: block;
+  background-image: url(../img/Happy\ Cloud.svg);
+  background-size: cover;
+  position: absolute;
+  left: 400px;
+  top: 280px;
+  bottom: 500px;
+  height: 50px;
+  width: 60px;
+}
+
+.header > .cercle {
+  background-image: url(../img/Ellipse\ 5.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 55px;
+  top: 10%;
+  right: 0;
+  width: 70px;
+  height: 170px;
+}
