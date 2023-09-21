@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-size: var(--psize);
+  }
+  
+  :root {
+      --bleu: #6EC1E4;
+      --orange: #F7812E;
+      --h1size: 40px;
+      --h2size: 29px;
+      --h3size: 25px;
+      --bold: 700;
+      --semi-bold: 600;
+    --psize: 18px;
+  }
+  
+  
+  a {
+    font-weight: var(--semi-bold);
+    color: white;
+  }
+
+  .un {
+    width: 50%;
+  }
+  
+  #deux{
+    position: relative;
+  }
+  #deux img{
+    position: absolute;
+    width: 20vw;
+    height: 65vh;
+    bottom: 100px;
+    left: 60%;
+    border-radius: 10%;
+  }
+
+  span{
+    background: var(--bleu);
+    width: 20vw;
+    height: 65vh;
+    border-radius: 10%;
+    position: absolute;
+    top: 700px;
+    right: 30px;
+    z-index: -1;
+  }
+
+  p{
+    font-family: ;
+  }

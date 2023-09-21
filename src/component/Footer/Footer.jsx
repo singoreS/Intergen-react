@@ -1,11 +1,10 @@
 
-
 const Footer = () => {
   return (
     <div>
       <footer>
         <a href="index.html">
-          <img src="assets/img/LOGO-INTERGEN3.png" alt="logo" />
+          <img src="public/img/LOGO-INTERGEN3.png" alt="logo" />
         </a>
         <ul>
           <li>
