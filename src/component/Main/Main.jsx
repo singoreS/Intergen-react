@@ -7,19 +7,19 @@ import Section3 from "../Accueil/Section3";
 import Section4 from "../Accueil/Section4";
 import Footer from "../Footer/Footer";
 
-function Main() {
-  return (
-    <div>
-      <Nav />
-      <Header />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Footer />
+// function Main() {
+//   return (
+//     <div>
+//       <Nav />
+//       <Header />
+//       <Section1 />
+//       {/* <Section2 />
+//       <Section3 />
+//       <Section4 /> */}
+//       <Footer />
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default Main;
+// export default Main;

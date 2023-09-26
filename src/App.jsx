@@ -7,16 +7,13 @@ import Main from "./component/Main/Main";
 import Orphelinat from "./Pages/Orphelinat/Orphelinat";
 import Don from "./Pages/Don/Don";
 import Contacte from "./Pages/contact/Contacte";
+import Section1 from "./component/Accueil/Section1";
+import HomePage from "./Pages/HomePage/HomePage";
 
 const App = () => {
   return (
     <div>
-      {/* <Main /> */}
-      {/* <Orphelinat /> */}
-      {/* <PContact /> */}
-      {/* <Don /> */}
       <Contacte />
-
     </div>
   );
 };

@@ -1,8 +1,8 @@
-import "./Section.css"
+import "./Section.css";
+
 const Section2 = () => {
   return (
-      <div>
-          <section id="deux">
+    <section id="deux">
   <h2>Nos Programmes</h2>
   <figure>
     <h3>
@@ -14,7 +14,6 @@ const Section2 = () => {
       alt="apprendre-à-cuisiner"
     />
   </figure>
-              
   <figure>
     <h3>
       Apprendre l'usage <br />
@@ -24,8 +23,7 @@ const Section2 = () => {
       src="public/img/pexels-shvets-production-7545266.jpg"
       alt="apprendre-l'-usage-d'un-ordinateur"
     />
-              </figure>
-              
+  </figure>
   <figure>
     <h3>
       La tenue d’un atelier <br />
@@ -63,11 +61,9 @@ const Section2 = () => {
     </h3>
     <img src="public/img/mixing-clay-pottery-pot.jpg" alt="journée-artisanat" />
   </figure>
-
 </section>
 
-    </div>
-  )
-}
+  );
+};
 
-export default Section2
+export default Section2;

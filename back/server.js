@@ -1,23 +1,22 @@
-// import express from "express";
-// import http from "node:http";
-// import dbConnection from "./services/dbConnection.js";
-// import studentRouter from "./Routes/associationRoute.js";
-// import cors from "cors";
+import express from "express";
+import http from "node:http";
+import associationRoute from "./router/associationRoute.js";
 
-// const app = express();
+const app = express();
 
-// // création d'un router
+// création d'un routeur
+const router = express.Router();
 
-// const router = express.Router();
+// associer l'application au routeur
+app.use(router);
 
-// app.use(router);
+router.use(express.json());
 
-// router.use(express.json());
+router.use("/association", associationRoute);
 
-// // router.use("/association", associationRoute);
+router.get("/", (req, res) => res.send("singore"));
 
-// router.get("/", (req, res) => res.send("coucou"));
 
-// const server = http.createServer(app);
+const server = http.createServer(app);
 
-// export default server;
+export default server;
